@@ -27,6 +27,8 @@
     - Edit books
     - Delete books
 
+- Deployed at https://pure-ridge-36658.herokuapp.com/
+
 <hr>
 <br>
 
@@ -44,9 +46,9 @@ The login page
 
 ![Login](/pics/loginpage.png)
 
-The booklist page
+The add book page
 
-![Booklist](/pics/booklistpage.png)
+![AddBook](/pics/addbook.png)
 
 The view books page
 
