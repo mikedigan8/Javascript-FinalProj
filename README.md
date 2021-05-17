@@ -32,4 +32,22 @@
 
 ## Screenshots
 
+The home page for the app
 
+![Home](/pics/homepage.png)
+
+The register page
+
+![Register](/pics/registerpage.png)
+
+The login page
+
+![Login](/pics/loginpage.png)
+
+The booklist page
+
+![Booklist](/pics/booklistpage.png)
+
+The view books page
+
+![ViewBooks](/pics/viewbooks.png)
