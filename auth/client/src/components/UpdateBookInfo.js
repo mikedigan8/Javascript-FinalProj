@@ -19,7 +19,7 @@ class UpdateBookInfo extends Component {
   componentDidMount() {
 
     axios
-      .get('http://localhost:3000/api/books/'+this.props.match.params.id)
+      .get('https://pure-ridge-36658.herokuapp.com/api/books'+this.props.match.params.id)
       .then(res => {
 
         this.setState({
@@ -53,7 +53,7 @@ class UpdateBookInfo extends Component {
     };
 
     axios
-      .put('http://localhost:3000/api/books/'+this.props.match.params.id, data)
+      .put('https://pure-ridge-36658.herokuapp.com/api/books'+this.props.match.params.id, data)
       .then(res => {
         this.props.history.push('/show-book/'+this.props.match.params.id);
       })

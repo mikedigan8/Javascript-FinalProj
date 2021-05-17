@@ -22,7 +22,7 @@ class ShowBookList extends Component {
 
   componentDidMount() {
     axios
-      .get('http://localhost:3000/api/books')
+      .get('https://pure-ridge-36658.herokuapp.com/api/books')
       .then(res => {
         this.setState({
           books: res.data

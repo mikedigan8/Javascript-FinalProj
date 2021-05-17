@@ -41,7 +41,8 @@ class CreateBook extends Component {
     };
 
     axios
-      .post('http://localhost:3000/api/books', data)
+      //.post('http://localhost:3000/api/books', data)
+      .post('https://pure-ridge-36658.herokuapp.com/api/books', data)
       .then(res => {
         this.setState({
           title: '',
